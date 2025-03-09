@@ -19,3 +19,23 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+@media(max-width:578px){
+  .main{
+    padding:0px 10px;
+  }
+  .flex{
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+  }
+  .top-content{
+  width:100%;
+  text-align: center;
+ padding:10px 20px;
+
+  }
+  .img{
+  margin: auto;
+  }
+}
